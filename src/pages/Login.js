@@ -37,7 +37,6 @@ function Login({ setToken, token }) {
           headers: {
             "Content-Type": "application/json",
             "X-API-KEY": "l!nt@h-B@!k",
-            Bearer: localStorage.getItem("token"),
           },
         }
       );
