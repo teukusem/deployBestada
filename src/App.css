@@ -1,0 +1,220 @@
+/* Navbar Styling  */
+.navbarBtm {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.iconNavbar {
+  text-align: center;
+  padding-bottom: 0px !important;
+}
+
+/* Login Page Styling */
+.fontJumbo {
+  font-size: 50px;
+  color: #47ade7;
+  line-height: 30px;
+}
+
+.formInput {
+  margin-top: 130px;
+}
+
+.btnLogin {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.forgotPass {
+  color: #47ade7;
+  font-size: 12px;
+  justify-content: end;
+  display: flex;
+}
+
+/* Home Styling */
+.bgHome {
+  height: 30vh;
+  background-color: #47ade7;
+}
+
+.fontNav {
+  font-size: 30px;
+}
+
+.placeName {
+  line-height: 0px;
+}
+
+.cardText {
+  color: #f5ba46;
+}
+
+.cardText2 {
+  color: #686c71;
+}
+
+.borderRight {
+  border-right-style: solid;
+  border-right-width: thin;
+  color: #c4c4c4;
+}
+
+.textLimit {
+  font-size: 12px;
+  text-align: center;
+}
+
+.spanLimit {
+  color: #c4c4c4;
+}
+
+.cardReport {
+  text-align: center;
+}
+
+.cardLaporan {
+  font-size: 16px;
+}
+
+/* custom file input */
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.inputfile + label {
+  width: 100%;
+  border: 4px dashed #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Berhasil Component */
+.infoComponent {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sizeInfo {
+  font-size: 12px;
+}
+
+.btn-info {
+  background-color: rgba(71, 173, 231, 0.1) !important;
+  border: none;
+  border-radius: 50px !important;
+  -webkit-border-radius: 50px !important;
+  -moz-border-radius: 50px !important;
+  -ms-border-radius: 50px !important;
+  -o-border-radius: 50px !important;
+}
+
+/* Badge */
+.badgeTag {
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* Detail Page */
+.borderBottom {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  color: #c4c4c4;
+}
+
+.btnDetail {
+  background-color: #c4c4c4 !important;
+  color: gray !important;
+  border-color: #c4c4c4 !important;
+  border-radius: 25px !important;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 1px;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.noDataImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
